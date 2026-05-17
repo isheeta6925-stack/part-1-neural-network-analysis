@@ -1,0 +1,6 @@
+Configuration,Hidden Layers,Neurons,Learning Rate,Activation,Batch Size,Train Acc,Test Acc,F1 Score,ROC-AUC,Train Loss,Val Loss,Epochs Run
+Config 1 — Baseline,1,64,0.001,relu,32,0.9887,0.97,0.1429,0.8651,0.0445,0.0769,100
+Config 2 — Deeper Network,3,128,0.001,relu,32,0.9837,0.975,0.1667,0.8168,0.0387,0.1167,47
+Config 3 — Higher LR,2,64,0.01,relu,64,0.9688,0.9525,0.24,0.8325,0.0729,0.1525,29
+Config 4 — Tanh Activation,2,64,0.001,tanh,32,0.925,0.91,0.1429,0.8761,0.1694,0.2134,77
+Config 5 — Low LR Small Batch,2,32,0.0001,relu,16,0.8781,0.8675,0.1311,0.8807,0.3477,0.3493,100
